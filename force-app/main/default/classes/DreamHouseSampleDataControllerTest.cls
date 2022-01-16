@@ -1,7 +1,7 @@
 @isTest
 private class DreamHouseSampleDataControllerTest {
 
-    @isTest
+    @isTest(SeeAllData = true)
     static void test_deleteAll() {
 
         Property__c property = new Property__c();
