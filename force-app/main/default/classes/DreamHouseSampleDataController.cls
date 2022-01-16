@@ -3,6 +3,6 @@ global with sharing class DreamHouseSampleDataController {
     @RemoteAction
     global static void deleteAll() {
         DELETE [SELECT ID FROM property__c];    
-        DELETE [SELECT ID FROM broker__c limit 10];
+        DELETE [SELECT ID FROM broker__c];
     }    
 }
